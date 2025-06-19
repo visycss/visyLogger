@@ -1,0 +1,17 @@
+name: visyLogger
+version: 1.0
+main: com.visy.visylogger.Main
+api-version: 1.21
+description: "Логирование добычи алмазов и редких предметов"
+author: Visy
+
+commands:
+  logger:
+    description: "Показать статистику добычи"
+    usage: "/logger [ник]"
+    permission: visylogger.stats
+
+permissions:
+  visylogger.stats:
+    description: "Позволяет просматривать статистику"
+    default: op

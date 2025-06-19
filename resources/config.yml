@@ -1,0 +1,17 @@
+# Отслеживаемые предметы (можно добавлять)
+tracked-items:
+  - "DIAMOND"
+  - "ANCIENT_DEBRIS"
+  - "NETHERITE_SCRAP"
+
+# Лимиты для триггера уведомлений
+limits:
+  max-items: 64      # Максимальное количество
+  time-interval: 300 # Интервал в секундах (5 минут)
+
+# Сообщения
+messages:
+  alert: "&c[ALERT] &fИгрок &e{nick} &fдобыл &a{count} &fпредметов &b{item} &fза &e{time} сек.!"
+  stats: "&6[Logger] &fСтатистика игрока &e{nick}:\n&7- &fДобыто &b{item}: &e{count} &fза последние &a{time} сек."
+  no-data: "&c[Logger] &fНет данных об игроке &e{nick}."
+  no-permission: "&cУ вас нет прав на эту команду!"

@@ -22,7 +22,7 @@ public final class Main extends JavaPlugin implements Listener {
         saveDefaultConfig();
         config = getConfig();
         Bukkit.getPluginManager().registerEvents(this, this);
-        getLogger().info("visyLogger включен для Paper 1.21.3!");
+        getLogger().info("visyLogger включен");
     }
 
     @EventHandler
